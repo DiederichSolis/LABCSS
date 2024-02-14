@@ -96,12 +96,54 @@ body {
     content: '';
     position: absolute;
     top:-30px;
-    left: 13%;
-    width: 70.5%;
+    left: 14%;
+    width: 68.5%;
     height: 130%;
     background-color: rgb(126, 133, 197);
-    border-radius: 60px;
+    border-radius: 70px;
     border: 13px solid black; 
 }
 
+.bandabluedark{
+    content: '';
+    position: absolute;
+    top:29px;
+    left: 5%;
+    width: 90%;
+    height: 62%;
+    background-color: rgb(41, 50, 134);
+    border-radius: 37px; 
+}
 
+.circle{
+    content: '';
+    position: absolute;
+    top: 16%;
+    left: 14%;
+    width: 14%;
+    height: 68%;
+    background-color:rgb(126, 133, 197);
+    border-radius: 100%;
+}
+
+.circle1{
+    content: '';
+    position: absolute;
+    top: 16%;
+    left: 44%;
+    width: 14%;
+    height: 68%;
+    background-color:rgb(126, 133, 197);
+    border-radius: 100%;
+}
+
+.circle2{
+    content: '';
+    position: absolute;
+    top: 16%;
+    left: 74%;
+    width: 14%;
+    height: 68%;
+    background-color:rgb(126, 133, 197);
+    border-radius: 100%;
+}
