@@ -33,7 +33,7 @@ body {
 .rostro{
     content: '';
     position: absolute;
-    bottom: 0px;
+    bottom: -2px;
     left: 15.7%;
     width: 65%;
     height: 80%;
@@ -76,9 +76,32 @@ body {
     height: 90%;
     background-color:rgb(255, 255, 255);
     border-radius: 100%;
-    clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%);   
+    clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%);  
+     
 }
 
+.bandared{
+    content: '';
+    position: absolute;
+    top: -127px;
+    left:-43%;
+    width: 179%;
+    height: 70%;
+    background-color: rgb(168, 6, 6);
+    border-radius: 60px;
+    border: 13px solid black;  
+}
 
+.bandablue{
+    content: '';
+    position: absolute;
+    top:-30px;
+    left: 13%;
+    width: 70.5%;
+    height: 130%;
+    background-color: rgb(126, 133, 197);
+    border-radius: 60px;
+    border: 13px solid black; 
+}
 
 
