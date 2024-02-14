@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(218, 221, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+
+
+}
+
+
+.cuerpo {
+    width: 750px;
+    height: 600px;
+    background-color: black;
+    border-radius: 70px;
+    position: relative;
+    display: flex;
+    border: 10px solid black;
+
+}
+.cabeza {
+    content: '';
+    position: absolute;
+    width: 97%;
+    height: 90%;
+    background-color: rgb(61, 61, 151);
+    border-radius: 70px;
+    border: 10px solid black;
+}
+
+.rostro{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 15.7%;
+    width: 65%;
+    height: 80%;
+    background-color: rgb(61, 61, 151);
+    border-radius: 110px;
+    border: 13px solid black;
+}
+
+.rostro::before{
+
+}
