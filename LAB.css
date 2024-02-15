@@ -10,14 +10,38 @@ body {
 }
 
 
-.circle-relative {
+.cuchillo {
     position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(255, 0, 0);
-    bottom:40%; 
-    left: 16%; 
-   
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 86.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
+    bottom:45.6%; 
+    left: 25.35%; 
+    transform: rotate(20deg);
+}
+
+.cuchillo::before{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 86.6px solid rgb(82, 122, 173); /* Altura = (lado/2) * √3 */
+    transform: rotate(20deg);
+}
+
+.cuchillo1 {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 86.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
+    bottom:37%; 
+    left: 14%; 
+    transform: rotate(200deg);
 }
 
 .cuerpo {
