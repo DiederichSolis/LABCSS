@@ -10,13 +10,22 @@ body {
 }
 
 
+.circle-relative {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    bottom:40%; 
+    left: 16%; 
+   
+}
+
 .cuerpo {
     width: 730px;
     height: 600px;
     background-color: black;
     border-radius: 70px;
-    position: relative;
-    display: flex;
+    position: absolute;
     border: 10px solid black;
 
 }
@@ -147,3 +156,4 @@ body {
     background-color:rgb(126, 133, 197);
     border-radius: 100%;
 }
+
