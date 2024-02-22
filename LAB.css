@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(218, 221, 223);
-    display: flex;
+    background-color: rgba(235, 240, 243, 0.733);
+    display: relative;
     justify-content: center;
     align-items: center;
     height: 100vh; 
@@ -14,63 +14,140 @@ body {
     position: relative;
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 86.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
-    bottom:45.6%; 
-    left: 25.35%; 
+    border-left: 52.5px solid transparent;
+    border-right: 52.5px solid transparent;
+    border-bottom: 99.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
+    bottom:22%; 
+    left:70%;  
     transform: rotate(20deg);
 }
 
 .cuchillo::before{
     content: "";
-    position: absolute;
+    position: relative;
     width: 0;
     height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 64.95px solid rgb(94, 101, 167); /* Altura = (lado/2) * √3 */
-    margin-top: 0%;
-    margin-left: -50%;
+    border-left: 41px solid transparent;
+    border-right: 41px solid transparent;
+    border-bottom: 82.5px solid rgba(158, 224, 255, 0.911);/* Altura = (lado/2) * √3 */
+    bottom:46%; 
+    left: -41.2pX; 
     transform: rotate(1deg);
 
 }
+
+.cuchillo::after{
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 41px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 82.5px solid rgb(130, 178, 223);/* Altura = (lado/2) * √3 */
+    bottom:46%; 
+    left: -123.2pX; 
+    transform: rotate(1deg);
+
+}
+
+
 
 .cuchillo1 {
     position: relative;
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 86.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
-    bottom:37%; 
-    left: 14%; 
+    border-left: 52.5px solid transparent;
+    border-right: 52.5px solid transparent;
+    border-bottom: 99.6px solid rgb(0, 0, 0); /* Altura = (lado/2) * √3 */
+    bottom:23%; 
+    left: 65.5%; 
     transform: rotate(200deg);
 }
 
+.cuchillo1::before {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 41px solid transparent;
+    border-right: 41px solid transparent;
+    border-bottom: 83.5px solid rgb(101, 150, 196); /* Altura = (lado/2) * √3 */
+    bottom:29%; 
+    left:-39.6px; 
+    transform: rotate(200deg);
+}
+
+.cuchillo1::after{
+    content: "";
+    position: relative;
+    margin-top: 41.75px;
+    width: 0;
+    height: 0;
+    border-left: 41px solid transparent;
+    border-right: px solid transparent;
+    border-bottom: 83.5px solid rgb(130, 178, 223); /* Altura = (lado/2) * √3 */
+    bottom:29%; 
+    left:-121.6px; 
+    transform: rotate(200deg);
+}
+
+.agarradera{
+    content: '';
+    position: relative;
+    width: 65px;
+    height: 50px;
+    background-color: black;
+    left:74.7%;
+    top: -145px;
+    transform: rotate(200deg);
+    border-radius: 8px;
+    clip-path: polygon(9% 0%, 91% 0%, 98% 98%, 2% 98%);  
+}
+
+.agarradera::before{
+    content: '';
+    position: relative;
+    width: 55px;
+    height: 40px;
+    background-color: rgb(126, 240, 33);
+    left:74.7%;
+    top: -145px;
+    transform: rotate(200deg);
+    border-radius: 8px;
+    clip-path: polygon(9% 0%, 91% 0%, 98% 98%, 2% 98%);  
+}
+
 .cuerpo {
+    content: '';
+    position: relative;
     width: 730px;
     height: 600px;
     background-color: black;
     border-radius: 70px;
+    left:30%;
+    top: 20%;
     position: relative;
     border: 10px solid black;
 
 }
+
+
 .cabeza {
     content: '';
     position: relative;
+    left: -1%;
+    top:-34%;
     width: 97%;
     height: 90%;
-    background-color: rgba(69, 106, 185, 0.863);
+    background-color: rgb(69, 106, 185);
     border-radius: 70px;
-    border: 10px solid black;
+    border: 18px solid black;
 }
 
 .rostro{
     content: '';
     position: relative;
-    bottom: -100px;
+    bottom: -40px;
     left: 15.7%;
     width: 65%;
     height: 80%;
@@ -92,10 +169,10 @@ body {
 
 }
 
-.antifaz::before{
+.eyes{
     content: '';
     position: absolute;
-    bottom: 10%;
+    bottom: 6%;
     left: 8%;
     width: 35%;
     height: 90%;
@@ -104,22 +181,21 @@ body {
     clip-path: polygon(0 25%, 100% 55%, 100% 100%, 0 100%);   
 }
 
-.antifaz::after{
+.eyes1{
     content: '';
     position: absolute;
-    bottom: 10%;
+    bottom: 6%;
     left: 57%;
     width: 35%;
     height: 90%;
     background-color:rgb(255, 255, 255);
     border-radius: 100%;
-    clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%);  
-     
+    clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%); 
 }
 
 .bandared{
     content: '';
-    position: absolute;
+    position: relative;
     top: -127px;
     left:-43%;
     width: 179%;
@@ -131,7 +207,7 @@ body {
 
 .bandablue{
     content: '';
-    position: absolute;
+    position: relative;
     top:-30px;
     left: 14%;
     width: 68.5%;
@@ -143,7 +219,7 @@ body {
 
 .bandabluedark{
     content: '';
-    position: absolute;
+    position: relative;
     top:29px;
     left: 5%;
     width: 90%;
@@ -154,7 +230,7 @@ body {
 
 .circle{
     content: '';
-    position: absolute;
+    position: relative;
     top: 16%;
     left: 14%;
     width: 14%;
@@ -165,8 +241,8 @@ body {
 
 .circle1{
     content: '';
-    position: absolute;
-    top: 16%;
+    position: relative;
+    top: -50%;
     left: 44%;
     width: 14%;
     height: 68%;
@@ -176,8 +252,8 @@ body {
 
 .circle2{
     content: '';
-    position: absolute;
-    top: 16%;
+    position: relative;
+    top: -118%;
     left: 74%;
     width: 14%;
     height: 68%;
