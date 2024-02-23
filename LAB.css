@@ -110,8 +110,8 @@ body {
     width: 55px;
     height: 40px;
     background-color: rgb(126, 240, 33);
-    left:74.7%;
-    top: -145px;
+    left: -50%; /* Mover a la izquierda */
+    top: -50%;
     transform: rotate(200deg);
     border-radius: 8px;
     clip-path: polygon(9% 0%, 91% 0%, 98% 98%, 2% 98%);  
