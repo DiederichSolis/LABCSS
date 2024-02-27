@@ -199,7 +199,7 @@ body {
 .rostro{
     content: '';
     position: relative;
-    bottom: 70px;
+    bottom: 80px;
     left: 15.7%;
     width: 65%;
     height: 80%;
@@ -232,7 +232,7 @@ body {
     background-color:rgb(255, 255, 255);
     border-radius: 100%;
     clip-path: polygon(0 25%, 100% 55%, 100% 100%, 0 100%); 
-    transition: clip-path 2s ease-in-out .5s; 
+    transition: clip-path 1s ease-in-out .3s; 
 }
 
 .eyes1{
@@ -246,7 +246,7 @@ body {
     border-radius: 100%;
     clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%); 
     transition:  background-color 2s ease-in-out .5s;
-    transition: clip-path 2s ease-in-out .5s;
+    transition: clip-path 1s ease-in-out .3s;
 }
 
 .eyes1:hover , .eyes:hover{
